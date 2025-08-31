@@ -5,6 +5,8 @@ import { IoIosPeople } from "react-icons/io";
 import { FaBed } from "react-icons/fa";
 import { BiArea } from "react-icons/bi";
 import { FaBath } from "react-icons/fa6";
+import { MdOutlineReviews } from "react-icons/md";
+import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const TopVillas = () => {
@@ -33,28 +35,37 @@ const TopVillas = () => {
                 <div className="title_text">{element.name}</div>
                 <div className="specifications">
                   <div className="spec">
+                      <span> <span><MdOutlineReviews /></span> {element.reviews}</span>
+                                        
+                      <span> <span><FaStar></FaStar></span> {element.ratings}</span>
+                  </div>
+                                      
+                  
+                   
+                  {/* <div className="spec">
                     <IoIosPeople />
                     <span>{element.guests}</span>
                     Guests
-                  </div>
-                  <div className="spec">
+                  </div> */}
+                  {/* <div className="spec">
                     <FaBed />
                     <span>{element.bedrooms}</span>
                     Bedrooms
-                  </div>
-                  <div className="spec">
+                  </div> */}
+                  {/* <div className="spec">
                     <BiArea />
                     <span>{element.squareMeter}</span>
                     Area
-                  </div>
-                  <div className="spec">
+                  </div> */}
+                  {/* <div className="spec">
                     <FaBath />
                     <span>{element.bathrooms}</span>
                     Bathrooms
-                  </div>
+                  </div> */}
+                 
                 </div>
                 <div className="badge">
-                  From <span>€{element.dailyRent} / Day </span>
+                  From <span>Rs {element.dailyRent} / Day </span>
                 </div>
               </Link>
           );

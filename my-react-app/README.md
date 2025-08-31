@@ -1,12 +1,7 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is inspired by a Airbnb Website - MERN Stack project made wid the technologies like - HTML, CSS, React, Node-Js . Its Frontend framework made with the help of Bootstrap Application
 
-Currently, two official plugins are available:
+Website made your experience with luxury to be easy and enjoyable. The space is thoughtfully designed to evoke relaxation, featuring comfortable furnishings and calming decor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+From cozy cottages to elegant penthouses, hosts are happy to share their places. Whether it’s a work trip, weekend getaway, family vacation, or a longer stay, there are millions of amazing places to visit.

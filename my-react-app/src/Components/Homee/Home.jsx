@@ -6,6 +6,8 @@ import OurSpecialities from '../../subComponents/ourSpecialities'
 import Host from '../../subComponents/Host'
 import About from '../../subComponents/About'
 import SubContact from '../../subComponents/Contact'
+import Feedback from "../../subComponents/Feedbackk"
+import { Toaster } from 'react-hot-toast';
 
 const Home = () => {
     return(
@@ -14,10 +16,12 @@ const Home = () => {
          <HeroSection/>
          <TopVillas/>
          <Regions/>
+           {/* <Host/> */}
          <OurSpecialities/>
-         <Host/>
-         <About/>
-         <SubContact/>
+       
+         {/* <About/> */}
+         <Feedback/>
+         <Toaster />
          </article>
         </>
     )

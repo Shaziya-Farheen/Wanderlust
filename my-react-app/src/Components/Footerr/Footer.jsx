@@ -8,7 +8,7 @@ const Footer = () => {
     return(
         <>
          <footer className={isHomePage ? 
-            'homePage_footer otherPage_footer': "otherPage_footer"}>
+            'homePage_footer otherPage_footer': "otherPage_footer"} id = "foot">
               <div className="container">
           <h4>Wanderlust</h4>
           <p>
@@ -27,10 +27,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className="container">
-          <h4>Connect with us</h4>
-          <p>+00 000 000 00</p>
-          <p>sf@gmail.com</p>
-          <p>© All Rights Reserved By Shaziya.</p>
+          <h4>Connect  with  us</h4>
+          <p>+001 1234 999</p>
+          <p>wanderlust@gmail.com</p>
+          <p className= "para">© All Rights Reserved By Wanderlust.</p>
         </div>
          </footer>
         </>

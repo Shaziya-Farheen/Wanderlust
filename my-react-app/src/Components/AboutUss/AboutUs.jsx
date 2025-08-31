@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <section id="aboutPage" className="page">
       <div className="container">
-        <img src="/about.jpg" alt="about" />
+        <img src="/view.jpg" alt="about" />
         <div className="content">
           <h3>Your peace of mind, our priority!</h3>
          

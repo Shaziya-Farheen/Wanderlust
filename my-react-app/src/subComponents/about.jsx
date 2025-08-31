@@ -32,10 +32,10 @@ const About = () => {
         </div>
         <div className="second_container">
           <div className="image_1">
-            <img src="/people.jpg" alt="people" />
+            <img src="/villa8.jpg" alt="people" />
           </div>
           <div className="image_2">
-            <img src="people2.jpg" alt="people2" />
+            <img src="/hills.jpg" alt="people2" />
           </div>
         </div>
       </section>

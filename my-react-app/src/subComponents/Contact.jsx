@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+
 const SubContact = () => {
   return (
     <>
@@ -17,16 +18,23 @@ const SubContact = () => {
           </div>
           <div>
             <p>Email</p>
-            <span>shazii2605@gmail.com</span>
+            <span>wanderlust@gmail.com</span>
           </div>
-          <div>
+          {/* <div>
             <p>Address</p>
             <span>House No.123 Sector A-1</span>
-          </div>
+          </div> */}
+          
           <ul>
-          <Link to={"https://www.facebook.com"} target="_blank"><FaFacebook /></Link>
           <Link to={"https://github.com/Shaziya-Farheen"} target="_blank"><FaGithub/></Link>
+          <Link to={"https://github.com/gaytri7887"} target="_blank"><FaGithub /></Link>
+          
+        </ul>
+        
+        <ul>
+           <Link to={"https://www.linkedin.com/in/shaziya-farheen-aa8100380/"} target="_blank"><FaLinkedin /></Link>
           <Link to={"https://www.linkedin.com/in/gayatri-shinde-bb715b294/"} target="_blank"><FaLinkedin /></Link>
+
         </ul>
         </div>
         

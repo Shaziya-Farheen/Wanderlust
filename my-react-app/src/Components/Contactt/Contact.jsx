@@ -13,7 +13,7 @@ const Contact = () => {
         <p>
         So please contact us to share your delightful experience with us for more sevices .</p>
         <div className="container">
-          <img src="/about.jpg" alt="about" />
+          <img src="/host2.jpg" alt="about" />
           <div className="content">
               <h3>Let's connect</h3>
               <div>
@@ -22,15 +22,15 @@ const Contact = () => {
               </div>
               <div>
                 <p>Email</p>
-                <span>shazii2605@gmail.com</span>
+                <span>wanderlust@gmail.com</span>
               </div>
-              <div>
+              {/* <div>
                 <p>Address</p>
                 <span>House No.123 Sector A-1</span>
-              </div>
+              </div> */}
               <ul>
-                <Link to={"https://www.facebook.com"} target="_blank">
-                  <FaFacebook />
+                <Link to={"https://github.com/gaytri7887"} target="_blank">
+                  <FaGithub />
                 </Link>
                 <Link to={"https://github.com/Shaziya-Farheen"} target="_blank">
                   <FaGithub />
