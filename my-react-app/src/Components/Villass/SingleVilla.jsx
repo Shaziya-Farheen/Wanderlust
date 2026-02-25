@@ -11,23 +11,24 @@ const SingleVilla = () => {
     <>
       <section id="singleVilla" className="page">
         <div className="container">
-          <h3>{filteredVilla.name}</h3>
+          <h3> {filteredVilla.name} </h3>
+          <h5> <i>{filteredVilla.address}</i></h5>
           <div className="images">
             <div className="villaImg">
-              <img src={filteredVilla.image} alt={filteredVilla.name} />
+              <img src={filteredVilla.img1} alt={filteredVilla.name} />
             </div>
             <div className="otherImgs">
               <div>
-                <img src={filteredVilla.img1} alt="villa" />
                 <img src={filteredVilla.img2} alt="villa" />
+                <img src={filteredVilla.img3} alt="villa" />
               </div>
               <div>
-                <img src={filteredVilla.img3} alt="villa" />
                 <img src={filteredVilla.img4} alt="villa" />
+                <img src={filteredVilla.img5} alt="villa" />
               </div>
             </div>
           </div>
-          <h4>{filteredVilla.location}</h4>
+          {/* <h4>{filteredVilla.location}</h4>
           <p>
             {filteredVilla.bathrooms} Bedrooms / {filteredVilla.guests} Guests /{" "}
             {filteredVilla.bathrooms} Bathrooms / {filteredVilla.squareMeter}{" "}
@@ -40,7 +41,7 @@ const SingleVilla = () => {
             <h5>
               Check Out <span> 11:00 PM</span>
             </h5>
-          </div>
+          </div> */}
           <div className="location">
             <h4>View map for more details -  </h4>
             <iframe

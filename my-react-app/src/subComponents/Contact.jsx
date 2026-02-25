@@ -14,11 +14,11 @@ const SubContact = () => {
           <h3>Let's connect</h3>
           <div>
             <p>Phone</p>
-            <span>+001 1234 999</span>
+            <span>+91 8446272032</span>
           </div>
           <div>
             <p>Email</p>
-            <span>wanderlust@gmail.com</span>
+            <span>shazii2605@gmail.com</span>
           </div>
           {/* <div>
             <p>Address</p>
@@ -27,14 +27,11 @@ const SubContact = () => {
           
           <ul>
           <Link to={"https://github.com/Shaziya-Farheen"} target="_blank"><FaGithub/></Link>
-          <Link to={"https://github.com/gaytri7887"} target="_blank"><FaGithub /></Link>
           
         </ul>
         
         <ul>
            <Link to={"https://www.linkedin.com/in/shaziya-farheen-aa8100380/"} target="_blank"><FaLinkedin /></Link>
-          <Link to={"https://www.linkedin.com/in/gayatri-shinde-bb715b294/"} target="_blank"><FaLinkedin /></Link>
-
         </ul>
         </div>
         

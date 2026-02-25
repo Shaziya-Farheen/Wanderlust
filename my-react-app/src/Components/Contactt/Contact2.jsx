@@ -3,8 +3,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import axios from "axios";
 import { useState } from "react";
 import toast from "react-hot-toast";
-
-
+import { BiColor } from "react-icons/bi";
 
 const Reservation = () => {
   const [fullName, setFullName] = useState("");
@@ -15,7 +14,6 @@ const Reservation = () => {
   const [phone, setPhone] = useState("");
   const [hotelName, setHotName] = useState("");
   const [location, setLoc] = useState("");
-
 
   const handleReservation = async (e) => {
     e.preventDefault();
@@ -39,25 +37,22 @@ const Reservation = () => {
       setEmail("");
       setHotName("");
       setLoc("");
-      
-      
     } catch (error) {
       toast.error(error.response.data.message);
     }
   };
-
    return (
      <>
           <section className="reservation" id="reservation">
       <div className="container">
         <div className="banner">
-          <img src="/host2.jpg" alt="res" />
+          <img src="/hostPic.jpg" alt="res" />
         </div>
         <div className="banner">
           <div className="reservation_form_box">
             
-             <h4>Book Your Luxury</h4>
-            <p>Please enter a right information - </p>
+             <h4>Book Your Villa</h4>
+            <p>Please enter a correct information - </p>
             <form>
               <div>
                 <input
@@ -89,20 +84,27 @@ const Reservation = () => {
                 />
               </div>
               <div>
+                 <h10>Check-in</h10>
                 <input
-                  type="text"
+                  type="date"
                   placeholder="Check-In Date"
                   value={checkIn}
+                  onfocus="(this.type='date')"
                   onChange={(e) => setInTime(e.target.value)}
                 />
+                </div>
+                <div>
+                  <h10>Check-Out</h10>
                 <input
-                  type="text"
+                  type="date"
                   placeholder="Check-Out Date"
+                  
                   value={date}
                   onChange={(e) => setOutTime(e.target.value)}
                 />
               </div>
               <div>
+                
                 <input
                   type="email"
                   placeholder="Email"

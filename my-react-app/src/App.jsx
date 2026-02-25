@@ -9,8 +9,7 @@ import Villas from './Components/Villass/Villas';
 import SingleVilla from './Components/Villass/SingleVilla';
 import './App.css'
 import { Toaster } from 'react-hot-toast';
-
-
+import Host from './Components/Hostingg/Host';
 
 const App = () => {
   
@@ -25,6 +24,8 @@ const App = () => {
         <Route path='/contact' element={<Contact2/>}/>
         <Route path='/villas' element={<Villas/>}/>
         <Route path='/villa/:id' element={<SingleVilla/>}/>
+        <Route path='/hosting' element={<Host/>}/>
+       
       </Routes>
       
       <Footer/>

@@ -9,8 +9,8 @@ const Villas = () => {
   return (
     <>
         <div className="page" id='allVillas'>
-          <h1>ALL VILLAS</h1>
-          <p>{villas.length} Properties</p>
+          <h1>HOTEL & VILLAS</h1>
+          <p>Select an available luxury for bookings - </p>
           <div className="villasContainer">
         {villas.map((element) => {
           return (

@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-
 const Feedback = () => {
   const [name, setFullName] = useState("");
   const [message, setMes] = useState("");
@@ -31,8 +30,6 @@ const Feedback = () => {
       setFullName("");
       setMes("");
       setEmail("");
-     
-      
       
     } catch (error) {
       toast.error(error.response.data.message);
@@ -47,11 +44,11 @@ const Feedback = () => {
           <h3>Let's connect</h3>
           <div>
             <p>Phone</p>
-            <span>+001 1234 999</span>
+            <span>+91 8446272032</span>
           </div>
           <div>
             <p>Email</p>
-            <span>wanderlust@gmail.com</span>
+            <span>shazii2605@gmail.com</span>
           </div>
           {/* <div>
             <p>Address</p>
@@ -59,11 +56,8 @@ const Feedback = () => {
           </div> */}
           <ul>
           <Link to={"https://github.com/Shaziya-Farheen"} target="_blank"><FaGithub/></Link>
-          <Link to={"https://github.com/gaytri7887"} target="_blank"><FaGithub /></Link>
         
-            <Link to={"https://www.linkedin.com/in/shaziya-farheen-aa8100380/"} target="_blank"><FaLinkedin /></Link>
-            <Link to={"https://www.linkedin.com/in/gayatri-shinde-bb715b294/"} target="_blank"><FaLinkedin /></Link>
-        
+          <Link to={"https://www.linkedin.com/in/shaziya-farheen-aa8100380/"} target="_blank"><FaLinkedin /></Link>
           </ul>
         </div>
 

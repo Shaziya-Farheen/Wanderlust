@@ -28,8 +28,8 @@ const Footer = () => {
         </div>
         <div className="container">
           <h4>Connect  with  us</h4>
-          <p>+001 1234 999</p>
-          <p>wanderlust@gmail.com</p>
+          <p>+91 8446272032</p>
+          <p>shazii2605@gmail.com</p>
           <p className= "para">© All Rights Reserved By Wanderlust.</p>
         </div>
          </footer>

@@ -22,6 +22,12 @@ const Navbar = () => {
           <li>
             <Link to={"/contact"}>BOOK</Link>
           </li>
+          <li>
+            <Link to={"/hosting"}>HOST</Link>
+          </li>
+          {/* <li>
+            <Link to={"/adminpage"}>ADMIN</Link>
+          </li> */}
         </ul>
         <RxHamburgerMenu
           className="hamburger"
